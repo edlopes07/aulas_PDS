@@ -10,9 +10,14 @@ namespace Escola.Contexts
     {
         private string connectionString;
 
-        public EscolaDbContext(string connectionString = null)
+        public EscolaDbContext(string connectionString)
         {
             this.connectionString = connectionString;
+        }
+
+        public EscolaDbContext(DbContextOptions opt) : base(opt)
+        {
+
         }
 
         public DbSet<Aluno> Alunos => Set<Aluno>();

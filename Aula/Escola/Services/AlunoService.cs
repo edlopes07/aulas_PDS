@@ -62,9 +62,9 @@ namespace Escola.Services
             return resultado;
         }
 
-        public bool Criar(Aluno aluno)
+        public bool Criar(Aluno aluno, out List<ValidationResult> erros)
         {
-            if (!Validar(aluno))
+            if (!Validar(aluno, out erros))
             {
                 return false;
             }
@@ -90,11 +90,11 @@ namespace Escola.Services
             return true;
         }
 
-        public bool Validar(Aluno aluno)
+        public bool Validar(Aluno aluno, out List<ValidationResult> erros)
         {
-            var context = new ValidationContext(aluno);
-            var erros = new List<ValidationResult>();
-            return Validator.TryValidateObject(aluno, context, erros);
+            var context = new ValidationContext(aluno); //erro verificar
+            erros = new List<ValidationResult>();
+            return Validator.TryValidateObject(aluno, context, erros, true);
         }
 
         public bool Excluir(string codigo)

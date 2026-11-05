@@ -93,7 +93,7 @@ while (true)
         aluno.DataNascimento = data;
         aluno.Codigo = codigo;
 
-        var sucesso = service.Criar(aluno);
+        var sucesso = service.Criar(aluno, out _);
         if (sucesso)
         {
             Console.WriteLine("Aluno cadastrado com sucesso!");

@@ -1,8 +1,39 @@
 {
   "version": 2,
-  "dgSpecHash": "CDOKfzaBH8g=",
+  "dgSpecHash": "DgYHdhVMsh8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\Escola.Desktop.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.14\\microsoft.entityframeworkcore.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.14\\microsoft.entityframeworkcore.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.14\\microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.4\\microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.14\\microsoft.extensions.caching.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.14\\microsoft.extensions.caching.memory.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.4\\microsoft.extensions.configuration.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.14\\microsoft.extensions.dependencyinjection.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.14\\microsoft.extensions.dependencyinjection.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.logging\\10.0.14\\microsoft.extensions.logging.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.14\\microsoft.extensions.logging.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.options\\10.0.14\\microsoft.extensions.options.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.14\\microsoft.extensions.primitives.10.0.14.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Aula\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "O pacote 'Microsoft.OpenApi' 2.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    }
+  ]
 }

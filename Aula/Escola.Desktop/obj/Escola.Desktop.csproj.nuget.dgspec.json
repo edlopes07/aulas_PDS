@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\Escola.Desktop.csproj": {}
+    "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\Escola.Desktop.csproj": {
+    "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\Escola.Desktop.csproj",
+        "projectUniqueName": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj",
         "projectName": "Escola.Desktop",
-        "projectPath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\Escola.Desktop.csproj",
-        "packagesPath": "C:\\Users\\edulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola.Desktop\\obj\\",
+        "projectPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\Escola.Desktop.csproj",
+        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola.Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
             "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {
-              "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\Escola.csproj": {
-                "projectPath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\Escola.csproj"
+              "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\Escola.csproj": {
+                "projectPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\Escola.csproj"
               }
             }
           }
@@ -49,12 +49,22 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -74,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -368,20 +378,20 @@
         }
       }
     },
-    "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\Escola.csproj": {
+    "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\Escola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\Escola.csproj",
+        "projectUniqueName": "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\Escola.csproj",
         "projectName": "Escola",
-        "projectPath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\Escola.csproj",
-        "packagesPath": "C:\\Users\\edulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edulo\\OneDrive\\Desktop\\projeto\\Escola\\obj\\",
+        "projectPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\Escola.csproj",
+        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aula\\Desktop\\Aula\\Escola\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -409,12 +419,30 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.14, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -431,7 +459,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

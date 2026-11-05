@@ -1,0 +1,16 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Escola.Api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7096"
+    },
+    {
+      "url": "http://localhost:5098"
+    }
+  ],
+  "paths": { }
+}
